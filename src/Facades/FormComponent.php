@@ -1,6 +1,6 @@
 <?php
 
-namespace FormComponent\FormComponent\Facades;
+namespace FormComponent\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

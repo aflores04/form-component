@@ -6,8 +6,7 @@
  * Time: 17:44
  */
 
-namespace FormComponent\FormComponent\Elements;
-
+namespace FormComponent\Elements;
 
 class Input extends Element
 {

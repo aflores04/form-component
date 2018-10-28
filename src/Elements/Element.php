@@ -6,10 +6,9 @@
  * Time: 18:15
  */
 
-namespace FormComponent\FormComponent\Elements;
+namespace FormComponent\Elements;
 
-
-use FormComponent\FormComponent\FormComponent;
+use FormComponent\FormComponent;
 
 abstract class Element
 {

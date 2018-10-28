@@ -1,8 +1,8 @@
 <?php
 
-namespace FormComponent\FormComponent;
+namespace FormComponent;
 
-use FormComponent\FormComponent\Elements\Element;
+use FormComponent\Elements\Element;
 
 class FormComponent
 {

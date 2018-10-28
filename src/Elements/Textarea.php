@@ -6,7 +6,7 @@
  * Time: 18:38
  */
 
-namespace FormComponent\FormComponent\Elements;
+namespace FormComponent\Elements;
 
 
 class Textarea extends Element
