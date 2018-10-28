@@ -1,8 +1,7 @@
 {
     "name": "aflores/formcomponent",
     "description": "Form Component for Laravel Framework",
-    "version": "1",
-    "license": "license",
+    "license": "proprietary",
     "authors": [
         {
             "name": "Alan Flores",
