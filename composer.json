@@ -1,15 +1,15 @@
 {
-    "name": "formcomponent/formcomponent",
+    "name": "aflores/formcomponent",
     "description": ":description",
     "license": "license",
     "authors": [
         {
             "name": "Alan Flores",
             "email": "alanfm89@gmail.com",
-            "homepage": "author homepage"
+            "homepage": "https://github.com/aflores04"
         }
     ],
-    "homepage": "https://github.com/formcomponent/formcomponent",
+    "homepage": "https://github.com/aflores04/formcomponent",
     "keywords": ["Laravel", "FormComponent"],
     "require": {
         "illuminate/support": "~5"
@@ -22,21 +22,21 @@
     },
     "autoload": {
         "psr-4": {
-            "FormComponent\\FormComponent\\": "src/"
+            "FormComponent\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "FormComponent\\FormComponent\\Tests\\": "tests"
+            "FormComponent\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "FormComponent\\FormComponent\\FormComponentServiceProvider"
+                "FormComponent\\FormComponentServiceProvider"
             ],
             "aliases": {
-                "FormComponent": "FormComponent\\FormComponent\\Facades\\FormComponent"
+                "FormComponent": "FormComponent\\Facades\\FormComponent"
             }
         }
     }
