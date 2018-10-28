@@ -1,0 +1,43 @@
+{
+    "name": "formcomponent/formcomponent",
+    "description": ":description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "Alan Flores",
+            "email": "alanfm89@gmail.com",
+            "homepage": "author homepage"
+        }
+    ],
+    "homepage": "https://github.com/formcomponent/formcomponent",
+    "keywords": ["Laravel", "FormComponent"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FormComponent\\FormComponent\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FormComponent\\FormComponent\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FormComponent\\FormComponent\\FormComponentServiceProvider"
+            ],
+            "aliases": {
+                "FormComponent": "FormComponent\\FormComponent\\Facades\\FormComponent"
+            }
+        }
+    }
+}
